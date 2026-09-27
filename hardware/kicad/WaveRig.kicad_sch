@@ -51,6 +51,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 96.52) (xy 50.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d14488a-e969-4684-b18e-9c731ca4e7f3")
+	)
+	(wire
+		(pts
 			(xy 69.85 93.98) (xy 64.77 93.98)
 		)
 		(stroke
@@ -101,16 +111,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 93.98) (xy 54.61 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8264ffd-545d-451f-a479-f058a0eb8d6b")
-	)
-	(wire
-		(pts
 			(xy 119.38 93.98) (xy 114.3 93.98)
 		)
 		(stroke
@@ -121,13 +121,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 93.81) (xy 14.92 93.81)
+			(xy 50.8 93.98) (xy 49.53 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbc432cd-a6b4-458c-9cca-bd1d7fb24da5")
+		(uuid "d71a186b-5129-4b29-9071-9c8f285cd30b")
 	)
 	(wire
 		(pts
@@ -320,7 +320,7 @@
 		(uuid "89ecf0a4-0dbd-41fd-9065-cb773beb0dbe")
 	)
 	(label "CIV_CTRL"
-		(at 14.92 93.81 0)
+		(at 50.8 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -350,7 +350,7 @@
 		(uuid "aec2951b-a630-4616-a7e8-3c04cf365c22")
 	)
 	(label "CIV_RX"
-		(at 54.61 93.98 0)
+		(at 50.8 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -870,19 +870,19 @@
 				(justify left bottom)
 			)
 		)
-		(pin "CIV_CTRL" input
-			(at 20.32 93.81 180)
-			(uuid "b25df2bf-5b64-4313-89e2-578fb66361a0")
+		(pin "CIV_RX" output
+			(at 49.53 93.98 0)
+			(uuid "25af96d0-5358-4102-8ec9-fa317c309ccd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "CIV_RX" output
-			(at 49.53 93.98 0)
-			(uuid "25af96d0-5358-4102-8ec9-fa317c309ccd")
+		(pin "CIV_TX" input
+			(at 49.53 96.52 0)
+			(uuid "01fb09ad-d5f3-4748-879d-617d877b6f1e")
 			(effects
 				(font
 					(size 1.27 1.27)
